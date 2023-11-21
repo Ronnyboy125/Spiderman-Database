@@ -2,10 +2,6 @@ create table `user` (
 `Account_id` INT
 , `Username` varchar(50)
 , `Saved_Data` int 
-, `test` int
-);
-insert into `user` values(
-
 )
 create table `missions`(
 `Mission_id` int 

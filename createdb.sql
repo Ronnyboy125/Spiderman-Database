@@ -473,110 +473,127 @@ insert into `skins`values(
   ,0
   ,17
   );
-CREATE TABLE `character` (
+CREATE TABLE `character` values (
     `Ch_id` INT,
     `Ch_name` VARCHAR(255),
     `Skills` VARCHAR(155),
     `Range` VARCHAR(155),
     `Skins_id` INT
 );
-insert into `character`(
+insert into `character` values(
+  1,
   'SpiderMan (Peter Parker)'
   ,'Spider Barrage'
   ,'All'
   ,1
   );
-insert into `character`(
+insert into `character` values(
+  2,
   'SpiderMan (Miles Morales)'
   ,'Venom Punch'
   ,'All'
   ,11
   );
-insert into `character`(
+insert into `character` values(
+  3,
   'Mary Jane'
   ,'Taser'
   ,'Close'
   ,21
   );
-insert into `character`(
+insert into `character` values(
+  4,
   'Harry Osbourne'
   ,'None'
   ,'None'
   ,22
   );
-insert into `character`(
+insert into `character` values(
+  5,
   'Martin Li'
   ,'Mind Control'
   ,'Mid'
   ,23
   );
-insert into `character`(
+insert into `character` values(
+  6,
   'Ganke Lee'
   ,'None'
   ,'None'
   ,24
   );
-insert into `character`(
+insert into `character` values(
+  7,
   'Norman Osbourne'
   ,'None'
   ,'None'
   ,25
   );
-insert into `character`(
+insert into `character` values(
+  8,
   'Rio Morales'
   ,'None'
   ,'None'
   ,26
   );
-insert into `character`(
+insert into `character` values(
+  9,
   'Felicia Hardy'
   ,'Sharp Claws'
   ,'Close'
   ,27
   );
-insert into `character`(
+insert into `character` values(
+  10,
   'Yuri Watanabe'
   ,'Whiplash'
   ,'Far'
   ,28
   );
-insert into `character`(
+insert into `character` values(
+  11,
   'Kraven'
   ,'Inhuman Strength'
   ,'Mid'
   ,29
   );
-insert into `character`(
+insert into `character` values(
+  12,
   'Venom'
   ,'Symbiote Strike'
   ,'All'
   ,30
   );
-insert into `character`(
+insert into `character` values(
+  13,
   'Curt Connors (Lizard)'
   ,'Lizard Bite'
   ,'Close'
   ,31
   );
-insert into `character`(
+insert into `character` values(
+  14,
   'Hunter'
   ,'None'
   ,'Variable'
   ,33
   );
-insert into `character`(
+insert into `character` values(
+  15,
   'Flame Enemy'
   ,'None'
   ,'Variable'
   ,38
   );
-insert into `character`(
+insert into `character` values(
+  16,
   'Thug'
   ,'None'
   ,'Variable'
   ,43
   );
-insert into `character`(
+insert into `character` values(
+  17,
   'SandMan'
   ,'Giant'
   ,'All'

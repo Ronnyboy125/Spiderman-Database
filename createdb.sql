@@ -480,3 +480,105 @@ CREATE TABLE `character` (
     `Range` VARCHAR(155),
     `Skins_id` INT
 );
+insert into `character`(
+  'SpiderMan (Peter Parker)'
+  ,'Spider Barrage'
+  ,'All'
+  ,1
+  );
+insert into `character`(
+  'SpiderMan (Miles Morales)'
+  ,'Venom Punch'
+  ,'All'
+  ,11
+  );
+insert into `character`(
+  'Mary Jane'
+  ,'Taser'
+  ,'Close'
+  ,21
+  );
+insert into `character`(
+  'Harry Osbourne'
+  ,'None'
+  ,'None'
+  ,22
+  );
+insert into `character`(
+  'Martin Li'
+  ,'Mind Control'
+  ,'Mid'
+  ,23
+  );
+insert into `character`(
+  'Ganke Lee'
+  ,'None'
+  ,'None'
+  ,24
+  );
+insert into `character`(
+  'Norman Osbourne'
+  ,'None'
+  ,'None'
+  ,25
+  );
+insert into `character`(
+  'Rio Morales'
+  ,'None'
+  ,'None'
+  ,26
+  );
+insert into `character`(
+  'Felicia Hardy'
+  ,'Sharp Claws'
+  ,'Close'
+  ,27
+  );
+insert into `character`(
+  'Yuri Watanabe'
+  ,'Whiplash'
+  ,'Far'
+  ,28
+  );
+insert into `character`(
+  'Kraven'
+  ,'Inhuman Strength'
+  ,'Mid'
+  ,29
+  );
+insert into `character`(
+  'Venom'
+  ,'Symbiote Strike'
+  ,'All'
+  ,30
+  );
+insert into `character`(
+  'Curt Connors (Lizard)'
+  ,'Lizard Bite'
+  ,'Close'
+  ,31
+  );
+insert into `character`(
+  'Hunter'
+  ,'None'
+  ,'Variable'
+  ,33
+  );
+insert into `character`(
+  'Flame Enemy'
+  ,'None'
+  ,'Variable'
+  ,38
+  );
+insert into `character`(
+  'Thug'
+  ,'None'
+  ,'Variable'
+  ,43
+  );
+insert into `character`(
+  'SandMan'
+  ,'Giant'
+  ,'All'
+  ,48
+  );

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Difficulty</title>
+  <link rel="stylesheet" href="spiderman-budget-version/src/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Select Difficulty</h1>
+    <ul class="menu-options">
+      <li class="menu-option">
+        <a href="game.html?difficulty=easy" class="menu-link">Easy</a>
+      </li>
+      <li class="menu-option">
+        <a href="game.html?difficulty=medium" class="menu-link">Medium</a>
+      </li>
+      <li class="menu-option">
+        <a href="game.html?difficulty=hard" class="menu-link">Hard</a>
+      </li>
+    </ul>
+  </div>
+  <form action="/submit_difficulty" method="post">
+    <label>Select Difficulty:</label>
+    <select name="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+  
+</body>
+</html>
